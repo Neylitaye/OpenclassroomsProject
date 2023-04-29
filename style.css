@@ -1,0 +1,65 @@
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+p{
+    font-size:large;
+    font-weight: bold;
+}
+.contenu{
+    flex: 1 0 auto;
+}
+
+header{
+    text-align: center;
+}
+.entete{
+    display: flex;
+    justify-content:space-between;
+}
+
+
+/*menu*/
+.menu{
+    display: grid; 
+    
+}
+ul{
+    
+    list-style: none;
+    display: inline-flex
+
+   
+}
+li{
+    padding-right: 40px;
+    text-align: center;
+
+}
+
+a{
+    text-decoration: none;
+    
+}
+a:hover{
+    color:coral;
+}
+
+
+
+
+.first{
+    display: flex;
+   opacity: 200px;
+    
+    
+}
+.ico{
+    height: 15px;
+}
+
+.info,.contact,.reseau{
+padding-right: 100px;
+border-right: black solid 3px;
+}

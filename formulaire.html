@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>Formulaire de la SN</title>
+      <meta charset="utf-8"/>
+      <link rel="stylesheet" href="style formulaire.css"/>
+      <style>
+         body{
+            background-image: url(https://th.bing.com/th/id/R.cfbc36b5e246203ec24274cb9dcceea1?rik=b3s9q4E8CQkrsg&riu=http%3a%2f%2f3.bp.blogspot.com%2f-XCLACc7egmU%2fUgALlGrmvnI%2fAAAAAAAAAFs%2f-va3M_I9CCs%2fs1600%2fcosmetic.jpg&ehk=8QW6COp0OVLFEiNZ6jmPmT3ZazViULNS75%2bDF0WxkTw%3d&risl=&pid=ImgRaw&r=0);
+            background-repeat: no-repeat;
+            background-size: cover;
+         }
+      </style>
+   </head>
+   <body>
+      <form method="POST" action="traitement.php">
+         <header ><img src="./image/LogoMakr-49ATHN (1).png" nom="photo" width="200" height="200" alt="" title=""/></header>
+         <p class="p1">FORMULAIRE D'ACHAT DES PRODUITS COSMETIQUES</p>
+         <form method="post" action="formulaire.php">
+            <fieldset>
+               <legend class="enclot" style="color:white;font-size:16px">Identification obligatoire</legend>
+               <p>
+                  <label for="nom">Entrez votre nom    :</label>
+                  <input type="text" name="nom" id="nom" placeholder="Entrez votre nom"/>
+               </p>
+               <p>
+                  <label for="prenom" >Entrez votre prenom :</label>
+                  <input type="text" name="prenom" id="prenom" placeholder="Entrez votre prenom"/>
+               </p>
+               <p>
+                  <label for="e-mail">Entrez votre addresse e-mail :</label>
+                  <input type="email" name="e-mail" id="e-mail" placeholder="abcdefg@gmail.com"/>
+               </p>
+               <p>
+                  <label for="num"> Entrez votre numero :</label>
+                  <input type="tel" name="num" id="num" placeholder="Entrez votre numero"/>
+               </p>
+               <p>
+                  Quel est votre genre ? <br/><br/>
+                  <input type="radio" name="genre" value="Homme" id="Homme"/><label for="Homme">Homme</label><br/>
+                  <input type="radio" name="genre" value="Femme" id="Femme"/><label for="Femme">Femme</label><br/>
+               </p>
+                  
+            
+            <p>
+               <label for="pays">Quel est votre pays ? <br/><br/></label>
+               <select name="pays" id="pays">
+                  <optgroup label="Afrique">
+                     <option value="Cameroun">Cameroun</option>
+                     <option value="RDC">RDC</option>
+                  </optgroup>
+                  <optgroup label="Amerique">
+                     <option value="etats-unis">USA</option>
+                     <option value="Canada">Canada</option>
+                  </optgroup>
+                  <optgroup label="Asie">
+                     <option value="Chine">Chine</option>
+                     <option value="Inde">Inde</option>
+                  </optgroup>
+                  <optgroup label="Europe">
+                     <option value="Marseille">Marseille</option>
+                     <option value="Rennes">Rennes</option>
+                  </optgroup>
+               </select>
+            </p>
+            <p>
+               <label for="ville"> Entrez votre ville :</label>
+               <input type="text" name="ville" id="ville" placeholder="Entrez votre ville"/>
+            </p>
+            <p>
+               <label for="departement"> Entrez votre departement :</label>
+               <input type="text" name="departement" id="departement" placeholder="Entrez votre departement"/>
+            </p>
+            <p>
+               <label for="arrondissement"> Entrez votre arrondissement :</label>
+               <input type="text" name="arrondissement" id="arrondissement" placeholder="Entrez votre arrondissement"/>
+            </p>
+         
+            <p>
+               <label for="passe"> Entrez votre mot de passe :</label>
+               <input type="password" name="passe" id="passe" placeholder="Entrez votre mot de passe"/>
+            </p>
+            </fieldset>
+            <footer>
+               <p class="bord">
+                  <input type="submit" value="Enregistrer" class="h22"/>
+               </p>
+            </footer>
+      </form>     
+   </body>
+   
+</html>

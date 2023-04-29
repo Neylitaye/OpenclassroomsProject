@@ -1,0 +1,43 @@
+.p1{
+    font-size: 40px;
+    text-shadow: 1px 2px 3px red;
+    text-align: center;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+header{
+    flex-shrink: 0;
+    width: 25;
+    text-align: center;
+    height: 25;
+}
+input{
+    text-align: justify;
+}
+footer{
+    text-align: right;
+}
+.h22{
+    background-color:lawngreen;
+}
+.bord{
+    border-width: 2px;
+    border-style: solid;
+    border-color: lawngreen;
+    border-radius: 20px;
+    margin: 20px;
+    padding: 20px;
+    box-shadow: 4px 4px 3px greenyellow inset;
+}
+.enclot{
+    border-width: 2px;
+    border-style: solid;
+    border-color: lawngreen;
+    border-radius: 20px;
+    margin: 20px;
+    padding: 20px;
+    box-shadow: 4px 4px 3px greenyellow inset;
+}
